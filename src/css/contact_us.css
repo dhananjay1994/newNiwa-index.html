@@ -1,0 +1,106 @@
+.touch_form{
+    width: 100%;
+    display: flex;
+
+    /* background-color: teal; */
+}
+
+._touch{
+    padding-top:2%;
+    background-color: #64699C;
+    width: 40%;
+    margin-left: 10%;
+    margin-top:5% ;
+    margin-bottom: 5%;
+    height: 80vh;
+}
+._touch .cu{
+    background-color: white;
+    color: #64699C;
+    font-size: 2vw;                                   w;
+    padding: 2%;
+    padding-left: 30%;
+    width: 30%;
+    /* margin-left:30%;   */
+    /* margin-top: 2%;  */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-o{
+    margin-left: 7%;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-left: 5%; 
+    font-size: 1.3vw;
+    background-color:#64699C ;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-i{
+    background-color: #64699C;  
+    width: 60%;
+    padding-top: 7%;  
+}
+.form-i form{
+    background-color: white;
+    margin-top: -3%;
+    padding-top: 3%;
+    padding-left: 10%;
+    margin-right: 20%;
+    height: 80vh;
+}
+form b{
+    color: #64699C;
+    font-size: 2vw;
+}
+label{
+    color: #64699C;
+}
+
+
+/* ._get_in_touch{
+    background-color: slategrey;
+} */
+
+/* .c_us{
+    font-size: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 30%;
+    padding-left: 10%;
+}
+.contact_o{
+    display: flex;
+    flex-direction: row;
+}
+
+.touch_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 2%;
+}
+.get-in-touch{
+    font-family: sans-serif;
+    color: bluevio5let;
+    text-align: center;   
+}
+._touch{
+    margin-left: 0%;
+    width: 30%; 
+    color:black;
+}
+.get_touched{
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 45%;
+    margin-right: 2%;
+    color: black;
+}
+/* .get_touched h3{
+    text-align: center;
+}
+  address{
+    font-size:  1.2vw;
+}  */

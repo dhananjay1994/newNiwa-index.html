@@ -1,239 +1,186 @@
-<!DOCTYPE HTML>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Arcana by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
 
-			<!-- Header -->
-				<div id="header">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/main.css">
+  <link rel="stylesheet" href="./src/css/header.css">
+  <link rel="stylesheet" href="./src/css/footer.css">
+  <link rel="icon" href="./assets/Imges/logos/niwa_final_logo_12_12_20.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sansita+Swashed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Niwa International</title>
+</head>
 
-					<!-- Logo -->
-						<h1><a href="index.html" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
+<body>
+  <header>
+    <div class="upperHeader">
+      <a class="logo" href="index.html">
+        <img title="Niwa Inernationational" src="./assets/Imges/logos/niwa_final_logo_12_12_20.png"
+          alt="Niwa International">
+      </a>
+      <h1 class="company_name"><strong>NIWA INTERNATIONAL</strong></h1>
+      <div class="contact_us">
+        <h4><strong>Connect Us</strong></h4>
+        <div class="_social_links">
+          <a href="https://m.facebook.com/Niwa-International-105198818184386/"><img class="social_icon" title="contact us on facebook"
+              src="./assets/Imges/social_media_icons/facebook_7Ao_icon.ico" alt="contact on fb"></a>
+          <a href="https://www.facebook.com/mann869"><img class="social_icon" title="contact us on twitter"
+              src="./assets/Imges/social_media_icons/twitter_9SQ_icon.ico" alt="contact us on twitter"></a>
+          <a href="https://instagram.com/niwainternational?igshid=ve072bsg57z3"><img class="social_icon" title="contact us on instagram"
+              src="./assets/Imges/social_media_icons/instagram_Upm_icon.ico" alt="contact us on instagram"></a>
+          <a href="https://www.facebook.com/mann869"><img class="social_icon" title="contact us on LinkedIn"
+              src="./assets/Imges/social_media_icons/linkedin_yVn_icon.ico" alt="contact us on LinkedIn"></a>
+          <!-- <a href="https://www.youtube.com"><img class="social_icon" title="contact us on youtube"
+                            src="./assets/Imges/youtube_IIv_icon.ico" alt=""></a> -->
+          <!-- <a href="mailto:dsathe335@gmail.com "><img class="social_icon" title="email us" src="./assets/Imges/email.ico" alt=""></a> -->
+          <!-- <a href="#"><img class="social_icon" title="Call Us us on facebook" src="./assets/Imges/phone.ico" alt=""></a> -->
+        </div>
+      </div>
+    </div>
+    <div class="lowerHeader">
+      <nav>
+        <ul style="margin-bottom: 0%;">
+          <li>
+            <div class="dropdown">
+              <a href="./index.html" class="navAncher">Home</a>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <a href="./src/html/about_us.html" class="navAncher">About Us</a>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <p class="dropbtn">Product</p>
+              <div class="dropdown-content">
+                <a href="./src/html/rice.html">Rice</a>
+                <a href="./src/html/pulse_types.html">Pulses</a>
+                <a href="./src/html/pulp.html">Pulp</a>
+                <a href="./src/html/fruit_vegetables.html">Fruits-Vegetables</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <a class="navAncher" href="./src/html/contact_us.html">
+                <p class="dropbtn">Contact Us</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container" style="height: 30%;width:90%">
+      <!-- <h2>Carousel Example</h2>   -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" style="margin:0%; ">
+          <div class="item active">
+            <a class="main_images" href="./src/html/rice.html"><img src="./assets/Imges/front_images/Rice-Exports (2).jpg"
+                alt="fruit_juice" style="width:100vw; height: 72vh;border: 1px solid pink;">
+            </a>
+          </div>
+          <div class="item">
+            <a class="main_images" href="./src/html/pulse_types.html"><img src="./assets/Imges/front_images/different-types-grains_4fdc5c692f79d253.jpg"
+                alt="mix_fruits" style="width:100vw; height: 72vh;border: 1px solid pink; "></a>
+          </div>
+          <div class="item">
+            <a class="main_images" href="./src/html/pulp.html"><img src="./assets/Imges/front_images/PngItem_410704.png"
+                alt="Pulp" style="width:100vw; height: 72vh;border: 1px solid pink;"></a>
+          </div>
+          <div class="item">
+            <a class="main_images" href="./src/html/fruit_vegetables.html"><img
+                src="./assets/Imges/front_images/PngItem_3377097.png" alt="Pulp"
+                style="width:100vw; height: 72vh;border: 2px solid pink;"></a>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Lorem dolor</a></li>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam sed tempus</a></li>
-										<li>
-											<a href="#">Submenu</a>
-											<ul>
-												<li><a href="#">Lorem dolor</a></li>
-												<li><a href="#">Phasellus magna</a></li>
-												<li><a href="#">Magna phasellus</a></li>
-												<li><a href="#">Etiam nisl</a></li>
-												<li><a href="#">Veroeros feugiat</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Veroeros feugiat</a></li>
-									</ul>
-								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="two-sidebar.html">Two Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-							</ul>
-						</nav>
+    <div class="welcome-class">
+      <h1 class="welcome">Welcome</h1>
+      <p style="margin-bottom: 0%;" class="textContent">
+        We, Niwa International Pune, India. Introduced ourselves as one of the The leading exporters
+        of
+        various Agri and process based commodities like Rice, Pulses, Fruit-Pulp, Fresh Fruits and Vegitable.
 
-				</div>
+        We commit to, deliver quality Agra Products to customer across the Globe.
+        We are Merchant Exporter with Trustful vendor. Our main motive is customer satisfaction & we are Wiling to this
+        committee.
 
-			<!-- Banner -->
-				<section id="banner">
-					<header>
-						<h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
-						<a href="#" class="button">Learn More</a>
-					</header>
-				</section>
+        We focus our efforts at minimizing the cost, cost effective prices and maximize the customer satisfaction.
+        We have established relationships with farmers, agents, and food entrepreneurs across india.
+        <br>
+        We, Niwa International believe in building and nurturing our relationship with our customers and clients. Not
+        only do we provide the utmost reliability and warm business relations, we also offer timely shipments and
+        accurate documentation for smooth commerce.
+        Dedicated to quality in our work, Niwa international Traders delivers superior products consistent with
+        International Standards.
 
-			<!-- Highlights -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row gtr-200">
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-paper-plane"></i>
-									<h3>This Is Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-pencil-alt"></i>
-									<h3>Also Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-wrench"></i>
-									<h3>Probably Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
+        Establishing a symbiotic relatioship with any valued company provides motivationa for us to work even better.
+        Quality is never compromised from the our side and that has earned us standing and brand.
+      </p>
+    </div>
+    <div class="quote_us">
+      <div class="quote"><img src="./assets/Imges/quote_icon/computer-icons-quality-control-quality-management-quality-vector-f1996e6f2f623109daee703b7e47e76e.png" alt="">
+    <br>
+     <q>Quality is never an accident. It is always the result of intelligent effort.    </q>
+      </div>
+      <div class="quote"><img src="./assets/Imges/quote_icon/imgbin_cruise-ship-maritime-transport-computer-icons-boat-png.png" alt="">
+      <br>  <q>Transport a handful of earth everyday and you will make a mountain.  </q>
+      </div>
+      <div class="quote"><img src="./assets/Imges/quote_icon/package-delivery-mail-box-parcel-box-950f66f6077ca138e870aad2901e1ae0.png" alt="">
+      <br>  <q>Our motto is strong packaging, clear addressing.</q>
+      </div>      
+    </div>
+    
+    <div class="quote_us1">
+      <div class="quote1"><img src="./assets/Imges/quote_icon/Daco_5093663 (2).png" alt="">
+        <br>  <q>Customer service shouldn't just be a department, it should be the entire company.</q>
+        </div>
+        <div class="quote1"><img src="./assets/Imges/quote_icon/imgbin_computer-icons-leadership-management-business-png.png" alt="">
+        <br>  <q>Good management consists in showing average people how to do the work of superior people</q>
+        </div>      
+    </div>
 
-			<!-- Gigantic Heading -->
-				<section class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							<h2>A gigantic heading you can use for whatever</h2>
-							<p>With a much smaller subtitle hanging out just below it</p>
-						</header>
-					</div>
-				</section>
+  </main>
+  <!-- Footer -->
+  <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" id="copyi">© Copyright 2020
+      <a href="#" style="color: azure;"> NiwaInternationals.com</a>- All Rights Reserved<br>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
 
-			<!-- Posts -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The First Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Second Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Third Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Fourth Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- CTA -->
-				<section id="cta" class="wrapper style3">
-					<div class="container">
-						<header>
-							<h2>Are you ready to continue your quest?</h2>
-							<a href="#" class="button">Insert Coin</a>
-						</header>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Mattis et quis rutrum</a></li>
-									<li><a href="#">Suspendisse amet varius</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan dolor</a></li>
-									<li><a href="#">Mattis rutrum accumsan</a></li>
-									<li><a href="#">Suspendisse varius nibh</a></li>
-									<li><a href="#">Sed et dapibus mattis</a></li>
-								</ul>
-							</section>
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>More Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Duis neque nisi dapibus</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan sed</a></li>
-									<li><a href="#">Mattis et sed accumsan</a></li>
-									<li><a href="#">Duis neque nisi sed</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum amet varius</a></li>
-								</ul>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<h3>Get In Touch</h3>
-								<form>
-									<div class="row gtr-50">
-										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="col-6 col-12-mobilep">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-										</div>
-										<div class="col-12">
-											<ul class="actions">
-												<li><input type="submit" class="button alt" value="Send Message" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-					</div>
-
-					<!-- Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
-						</ul>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
